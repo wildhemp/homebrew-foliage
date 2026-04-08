@@ -1,16 +1,16 @@
 class Foliage < Formula
   desc "Desktop app for orchestrating parallel AI coding sessions across git worktrees"
   homepage "https://foliage.dev"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT"
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/wildhemp/foliage-site/releases/download/v#{version}/foliage_#{version}_aarch64.AppImage"
-      sha256 "9ceff58a4777026676dc887cf7f3decb0e062b36d0cb35aaf226ccd2b1cd1ab5"
+      sha256 "4fab36d24e87a91a816809f359683b60a807d61b5a0d9062eba967c363b459a6"
     else
       url "https://github.com/wildhemp/foliage-site/releases/download/v#{version}/foliage_#{version}_amd64.AppImage"
-      sha256 "1413d498e14bb2d4e912425bf9b634ccd480e3f71596e47c31a56e10ba0f769f"
+      sha256 "f7d5daa3d3fb2b4f2edf77a26400a9228676413f481893a82f6e89598cf4cb2e"
     end
   end
 
