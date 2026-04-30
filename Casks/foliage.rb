@@ -2,15 +2,15 @@
 # frozen_string_literal: true
 
 cask "foliage" do
-  version "0.6.6"
+  version "0.7.0"
 
   on_arm do
-    sha256 "18febd7baa1b79d92b68e98afe2c84442a1cca39897e28b3685594348929434e"
+    sha256 "8be0c0d6cb63b9038a5873487f26994c4c570f41da1622b2286036f6e0431814"
     url "https://github.com/wildhemp/foliage-site/releases/download/v#{version}/foliage_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "03f263629e6ab24f5e9dbb88c5d794a63a12e76b4846684fe8dac1dace3bde35"
+    sha256 "1b5166e891bacf60f55b42c942b134a1337053f1251465d873c5bf86b634aac4"
     url "https://github.com/wildhemp/foliage-site/releases/download/v#{version}/foliage_#{version}_x64.dmg"
   end
 
